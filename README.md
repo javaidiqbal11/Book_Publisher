@@ -37,6 +37,18 @@ Set your OpenAI API key in an environment variable:
 ```shell
 export OPENAI_API_KEY="your_openai_api_key"
 ```
+## Usage
+1- Add Book Data:
 
+- Place book folders containing HTML files and images in the data directory. Ensure that each folder has a unique name, and the HTML file is named appropriately (e.g., pg74725-h.html).
+
+2- Run the Application:
+- Start the Gradio application with:
+```shell
+python main.py
+```
+3- Using the Interface:
+- Select a book from the dropdown list populated by available book folders in data.
+- The application will display a summary and a rephrased version of the introductory content.
 
 
