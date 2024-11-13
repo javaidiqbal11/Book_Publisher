@@ -24,4 +24,19 @@ source env/bin/activate
 ```shell
 pip install -r requirements.txt
 ```
+## Configuration
+1- Qdrant Configuration:
+```shell
+Configure Qdrant connection details in config.py:
+QDRANT_HOST = "localhost"  # or your Qdrant host
+QDRANT_PORT = 6333         # or your Qdrant port
+```
+
+2- OpenAI API Key:
+Set your OpenAI API key in an environment variable:
+```shell
+export OPENAI_API_KEY="your_openai_api_key"
+```
+
+
 
