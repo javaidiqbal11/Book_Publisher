@@ -73,6 +73,9 @@ book-publisher/
 └── README.md                     # Project documentation
 ```
 
+## Acknowledgments
+Gradio - Interactive UI for the application.
+OpenAI - Language model API for text processing.
 
 
 
