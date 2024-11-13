@@ -51,4 +51,9 @@ python main.py
 - Select a book from the dropdown list populated by available book folders in data.
 - The application will display a summary and a rephrased version of the introductory content.
 
+## Pattern Matching for Section Extraction
+The application uses a regular expression pattern to capture various Amazon eBook section headings, including:
 
+- Section Start Options: INTRODUCTION, PROLOGUE, PREFACE, FOREWORD, CHAPTER, SECTION, PART, BOOK, with optional numbering.
+- Section End Options: END, CONCLUSION, EPILOGUE, APPENDIX, NEXT, with optional numbering.
+The flexible pattern matching allows the application to handle diverse eBook formatting styles.
