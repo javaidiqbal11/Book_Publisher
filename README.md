@@ -9,3 +9,19 @@ The Book Publisher is a Python application that processes Amazon eBook content b
 - Embedding Storage: Stores content embeddings in Qdrant for future retrieval and analysis.
 - Pattern Matching: Extracts specific sections using flexible pattern matching to recognize a variety of eBook heading styles.
 
+## Installation
+1- Clone the repository:
+```shell
+git clone https://github.com/yourusername/book-publisher.git
+cd book-publisher
+```
+2- Create a virtual environment and activate it:
+```shell
+python3 -m venv env
+source env/bin/activate
+```
+3- Install dependencies:
+```shell
+pip install -r requirements.txt
+```
+
