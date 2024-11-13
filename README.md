@@ -57,3 +57,16 @@ The application uses a regular expression pattern to capture various Amazon eBoo
 - Section Start Options: INTRODUCTION, PROLOGUE, PREFACE, FOREWORD, CHAPTER, SECTION, PART, BOOK, with optional numbering.
 - Section End Options: END, CONCLUSION, EPILOGUE, APPENDIX, NEXT, with optional numbering.
 The flexible pattern matching allows the application to handle diverse eBook formatting styles.
+
+
+## File Structure
+book-publisher/
+├── data/
+│   └── [Book Folders with HTML and Images]
+├── utils/
+│   ├── html_reader.py            # Functions for loading HTML content
+│   ├── text_processing.py        # Functions for text processing, chunking, summarization, rephrasing
+│   └── embedding_storage.py      # Functions for storing embeddings in Qdrant
+├── config.py                     # Configuration for Qdrant connection
+├── main.py                       # Main application file with Gradio interface
+└── README.md                     # Project documentation
