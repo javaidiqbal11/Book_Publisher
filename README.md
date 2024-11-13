@@ -61,6 +61,7 @@ The flexible pattern matching allows the application to handle diverse eBook for
 
 ## File Structure
 book-publisher/
+```text 
 ├── data/
 │   └── [Book Folders with HTML and Images]
 ├── utils/
@@ -70,3 +71,8 @@ book-publisher/
 ├── config.py                     # Configuration for Qdrant connection
 ├── main.py                       # Main application file with Gradio interface
 └── README.md                     # Project documentation
+```
+
+
+
+
