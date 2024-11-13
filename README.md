@@ -26,8 +26,8 @@ pip install -r requirements.txt
 ```
 ## Configuration
 1- Qdrant Configuration:
-```shell
 Configure Qdrant connection details in config.py:
+```shell
 QDRANT_HOST = "localhost"  # or your Qdrant host
 QDRANT_PORT = 6333         # or your Qdrant port
 ```
