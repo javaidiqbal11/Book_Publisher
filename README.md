@@ -8,6 +8,7 @@ The Book Publisher is a Python application that processes Amazon eBook content b
 - Content Rephrasing: Rephrases sections of eBook content.
 - Embedding Storage: Stores content embeddings in Qdrant for future retrieval and analysis.
 - Pattern Matching: Extracts specific sections using flexible pattern matching to recognize a variety of eBook heading styles.
+- Book Description: Update book description based on the keywords/tags. 
 
 ## Installation
 1- Clone the repository:
